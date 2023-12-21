@@ -1,0 +1,246 @@
+.main__real{
+  max-width: 1194px;
+height: auto;
+
+  width: 100%;
+  margin-top: 60px;
+
+}
+.main__real__inner{
+  width: 100%;
+ height: auto;
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main__real__inner__cards{
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  height: auto;
+ 
+}
+.main__real__inner__titles{
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+
+}
+.main__real__inner__cards__inner{
+  max-width: 700px;
+  height: auto;
+  width: 100%;
+
+  margin-left: -50px;
+}
+.main__real__inner__titles{
+  margin-top: 130px;
+}
+.main__real__inner__cards__inner h2{
+  color:  #18191F;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  margin-top: 50px;
+  font-weight: 800;
+  line-height: 64px; 
+}
+.main__real__inner__cards__inner p{
+  color:  #18191F;
+font-feature-settings: 'salt' on, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+margin-top: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+.main__real__inner__cards__inner__box{
+  max-width: 350px;
+  width: 100%;
+  margin-top: 24px;
+  height: 468px;
+  float:right;transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+  background: var(--Default-White, #FFF);
+  box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+}
+.main__real__inner__cards__inner__box:hover{
+  box-shadow:  0 0 10px red;
+}
+.main__real__inner__cards__inner__box img{
+  margin-left: 64px;
+  margin-top: 7px;
+
+}
+
+.main__real__inner__cards__inner__box__fh{
+  width: 100%;
+  height: auto;
+ 
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.main__real__card{
+  margin-left: -50px;
+ 
+}
+.main__real__inner__cards__inner__box__boxes{
+  width: 254px;
+  height: auto;
+ 
+  margin-left: -20px;
+}
+.main__real__inner__cards__inner__box__boxes p{
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+}
+.main__real__inner__titles__card{
+  width: 445px;
+height: 340px;
+flex-shrink: 0;
+cursor: pointer;
+transition: all 0.3s;
+
+border-radius: 8px;
+background: var(--Default-White, #FFF);
+
+/* Dark Shadow */
+box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+}
+.main__real__inner__titles__card:hover{
+  box-shadow:  0 0 10px red;
+}
+.main__real__inner__titles__card img{
+  margin-left: 64px;
+  margin-top: 20px;
+}
+.main__real__inner__titles__card__inner{
+  width: 381px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-top: -20px;
+}
+.main__real__inner__titles__card__inners {
+margin-left: -40px;
+margin-top: -20px;
+}
+.main__real__inner__titles__card__inners__as{
+  width: 349px;
+  height: auto;
+
+}
+.main__real__inner__titles__card__inners__as p{
+  color: #000;
+  font-family: Inter;
+  margin-left: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+}
+.main__real__imges img{
+  margin-top: -20px;
+}
+.main__real__inner__titles__cards{
+  width: 350px;
+  height: auto;
+  margin-top: 32px;
+  padding-bottom: 32px;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+background: var(--Default-White, #FFF);
+
+/* Dark Shadow */
+box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+}
+.main__real__inner__titles__cards:hover{
+  box-shadow: 0 0 10px red;
+}
+.main__real__inner__titles__cards img{
+  margin-left: 55px;
+  margin-top: 41px;
+
+}
+.main__real__inner__titles__cards__vc{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+  height: 104px;
+
+}
+.main__real__inner__titles__cards__da{
+  width: 254px;
+  height: auto;
+  
+
+}
+.main__real__inner__titles__cards__va img{
+  margin-left: 4px;
+  margin-top: -30px;
+}
+.main__real__inner__titles__cards__da p{
+  color: var(--Text-Gray-900, #18191F);
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+}
+.main__real__inner__titles__cards__da img{
+  margin-top: -30px;
+  margin-left: 0px;
+}
+
+
+
+
+@media screen and (max-width:1220px) {
+  .main__real__inner__cards__inner__box{
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:998px) {
+  .main__real__inner__titles__card{
+    width: 350px;
+    height: auto;
+  }
+  .main__real__inner__titles__card__inner{
+   width: 268px;
+
+  }
+  .main__real__inner__titles__cards img{
+    margin-top: 21px;
+  }
+  .main__real__inner__titles__cards__da img{
+    margin-top: -15px;
+  }
+  .main__real__inner__cards__inner h2{
+    font-size: 36px;
+  }
+}
+@media screen and (max-width:786px) {
+
+}
+@media screen and (max-width:625px) {
+ 
+}
+@media screen and (max-width:475px) {
+
+}

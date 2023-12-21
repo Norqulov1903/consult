@@ -1,0 +1,282 @@
+.main__here{
+  max-width: 1232px;
+  width: 100%;
+  height: 432px;
+  border-radius: 16px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  background: var(--Secondary-Soft-Purple, #F7FAFE);
+}
+.main__here__left{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__here__left img{
+  margin-top: 200px;
+  margin-left: -20px;
+}
+.mein__here__center{
+  max-width: 1024px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+}
+.mein__here__center h2{
+  color: var(--Text-Title, #2E2E2E);
+text-align: center;
+font-family: Poppins;
+font-size: 64px;
+font-style: normal;
+margin-top: 25px;
+font-weight: 600;
+line-height: 88px; /* 137.5% */
+}
+.mein__here__center button{
+  width: 208px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 8px;
+background: #B00000;
+color: var(--Text-White, #FFF);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+margin: 52px auto;
+font-weight: 400;
+transition: all 0.3s;
+cursor: pointer;
+line-height: 24px; /* 171.429% */
+}
+.mein__here__center button:hover{
+  background-color: orange;
+}
+.mein__here__center img{
+margin-top: -20px;
+}
+.mein__here__center button img{
+  margin-top: 0px;
+}
+.main__here__right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__here__right img{
+  margin-top: 250px;
+  margin-right: -30px;
+}
+
+
+
+@media screen and (max-width:1220px) {
+
+}
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:998px) {
+  .mein__here__center h2{
+    font-size: 45px;
+  }
+  .mein__here__center h2{
+    line-height: normal;
+  }
+}
+@media screen and (max-width:786px) {
+  .mein__here__center h2{
+    line-height: normal;
+  }
+}
+@media screen and (max-width:625px) {
+  .main__here{
+    height: auto;
+  }
+  .mein__here__center h2{
+    font-size: 32px;
+  }
+  .mein__here__center button{
+    margin: 20px auto;
+  }
+  .main__here__right img{
+margin-top: 100px;
+  }
+  .main__here__left img{
+    margin-top: 80px;
+  }
+  .main__over__box__as{
+    flex-wrap: wrap;
+  }
+  .main__over__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .main__real__inner__cards a{
+    display: none;
+  }
+  .main__real__inner__cards__inner{
+    margin-left: 0px;
+
+   
+  }
+  .mein__here__center h2{
+    line-height: normal;
+  }
+  .main__real__inner__cards__inner h2{
+    padding-left: 10px;
+  }
+  .main__real__inner__cards__inner p{
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .main__over__box{
+    display: none;
+  }
+ 
+  .main__real__inner__cards__inner__box{
+    margin: auto;
+  }
+  .main__over__box{
+    display: none;
+  }
+  .mein__here__center img{
+    display: none;
+  }
+  .main__here__left{
+    display: none;
+  }
+  .main__here__right{
+    display: none;
+  }
+  
+}
+@media screen and (max-width:475px) {
+  .main__real__inner__cards a{
+    display: none;
+  }
+  .main__real__inner__cards__inner{
+    margin-left: 0px;
+  }
+  .main__real__inner__cards__inner__box{
+    margin-left: 12px;
+  }
+  .main__over__box{
+    display: none;
+  }
+  .mein__here__center img{
+    display: none;
+  }
+  .main__here__left{
+    display: none;
+  }
+  .main__here__right{
+    display: none;
+  }
+  .main__here__right img{
+    width: 40px!important;
+    height: 40px!important;
+  }
+  .main__real__inner__cards__inner h2{
+    margin-top: 30px;
+    font-size: 32px;
+    line-height: normal;
+    margin-top: 0px;
+  }
+  .main__over{
+    margin-top: 40px;
+  }
+  .main__here{
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width:375px){
+  .main__real__inner__cards__inner h2{
+    font-size: 22px;
+    line-height: normal;
+  }
+  .main__real__inner__cards__inner__box{
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+   
+  }
+  .main__real__inner__cards__inner__box img{
+    margin-left: 34px;
+  }
+  .main__real__inner__cards__inner__box__boxes{
+    width: 200px;
+  }
+  .main__real__card{
+    margin-left: -45px;
+  }
+  .main__real__inner__cards__inner__box img{
+    margin-left: 40px;
+  }
+  .main__real__inner__cards__inner__box__boxes p{
+    font-size: 12px;
+    line-height: normal;
+  }
+  .main__real__inner__titles__card__inners__as p{
+    font-size: 12px;
+    line-height: normal;
+  }
+  .main__real__inner__titles__cards__da p{
+    line-height: normal;
+    font-size: 12px;
+  }
+  .main__real__inner__titles__cards img{
+    margin-top: 1px;
+  }
+  .main__real__inner__titles__card{
+    width: 280px;
+  }
+  .main__real__inner__titles__card img{
+margin-left: 30px;
+  }
+  .main__real__inner__titles__card__inners__as p{
+    width: 190px;
+    
+  }
+  .main__real__inner__titles__cards{
+    width: 280px;
+  }
+  .main__real__inner__cards__inner p{
+    font-size: 14px;
+  }
+  .main__real__inner__cards__inner h2{
+    margin-top: 10px;
+  }
+  .main__over__card h1{
+    font-size: 26px;
+    padding-left: 10px;
+    line-height: normal;
+    text-align: center;
+    padding-right: 10px;
+  }
+  .main__over__card p{
+    font-size: 14px;
+    padding-left: 10px;
+    text-align: center;
+    padding-right: 10px;
+  }
+  .mein__here__center h2{
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main__over{
+    margin-top: 30px;
+  }
+  .main__here{
+    margin-top: 30px;
+  }
+}

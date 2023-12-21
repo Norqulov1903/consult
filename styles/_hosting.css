@@ -1,0 +1,321 @@
+.main__hosting{
+  width: 100%;
+  height: auto;
+
+  margin: auto;
+
+}
+.main__hosting__inner{
+  max-width: 1264px;
+  width: 100%;
+  height: auto;
+
+  margin: auto;
+}
+.main__hosting__inner__cards{
+  max-width: 1264px;
+  width: 100%;
+  height: auto;
+
+  margin: auto;
+  display: flex;
+
+  justify-content: space-between;
+}
+.main__hosting__inner__cards__title{
+  max-width: 594px;
+  width: 100%;
+  height: auto;
+
+}
+.main__hosting__inner__cards__title h3{
+  color:#18191F;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px; 
+}
+.main__hosting__inner__cards__title p{
+  color:  #18191F;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: Inter;
+  font-size: 18px;
+  margin-top: 18px;
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+}
+.main__hosting__inner__cards__logo{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+ 
+}
+.main__hosting__inner__box{
+  margin-top: 70px;
+}
+.main__hosting__inner__cards__logo__lg{
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.lk{
+  width: 100%;
+  margin-top: -10xp;
+  display: none;
+}
+.main__hosting__inner__cards__logo__lk{
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main__hosting__inner__cards__logo__lh{
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main__hosting__inner__cards__logo__lg h6 img{
+transition: all 0.3s;
+}
+.main__hosting__inner__cards__logo__lg h6 img:hover{
+  transform: scale(1.2);
+}
+.main__hosting__inner__cards__logo__lh h6 img{
+  transition: all 0.3s;
+  }
+  .main__hosting__inner__cards__logo__lh h6 img:hover{
+    transform: scale(1.2);
+  }
+  .main__hosting__inner__cards__logo__lk h6 img{
+    transition: all 0.3s;
+    }
+    .main__hosting__inner__cards__logo__lk h6 img:hover{
+      transform: scale(1.2);
+    }
+  .main__hosting__inner__box{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .main__hosting__inner__box__inner{
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main__hosting__inner__box__ima{
+    width: 50%;
+    height: auto;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main__hosting__inner__box__inner__cards{
+    width: 270px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+    text-align: center;
+  }
+  .main__hosting__inner__box__inner__cards h5{
+    color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 12px;
+  line-height: normal;
+  }
+  .main__hosting__inner__box__inner__cards p{
+    color: #000;
+  text-align: center;
+  font-family: Poppins;
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-top: 4px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  }
+  .main__hosting__inner__box__inner__cards:hover{
+    box-shadow:  0 0 10px red;
+    border-radius: 10px;
+  }
+ 
+  .main__hosting__inner__cards__logo__lh h6:nth-child(4){
+    display: none;
+  }
+
+
+  @media screen and (max-width:1220px) {
+ 
+  }
+  @media screen and (max-width:1024px) {
+    .main__hosting__inner__cards__title h3{
+      font-size: 37px;
+      line-height: normal;
+    }
+  }
+  @media screen and (max-width:998px) {
+    .main__hosting__inner__cards{
+      flex-wrap: wrap;
+    }
+    .main__hosting__inner__cards__title{
+      margin: auto;
+    }
+    .main__hosting__inner__box{
+      margin-top: 40px;
+    }
+  }
+  @media screen and (max-width:786px) {
+    .main__hosting__inner__box{
+   flex-wrap: wrap;
+    }
+    .main__hosting__inner__box__inner{
+      width: 80%;
+      text-align: center;
+      margin: auto;
+    }
+    .main__hosting__inner__box__ima{
+      width: 80%;
+      text-align: center;
+      margin: 20px auto;
+    }
+    .main__hosting__inner__box{
+      margin-top: 20px;
+    }
+  }
+  @media screen and (max-width:625px) {
+    .lk{
+      display: block;
+    }
+    .main__hosting__inner__cards__logo__lg h6:nth-child(3){
+      display: none;
+    }
+    .main__hosting__inner__cards__logo__lh h6:nth-child(3){
+      display: none;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+  }
+  @media screen and (max-width:475px) {
+  .main__hosting__inner__box__inner{
+    flex-wrap: wrap;
+  }
+  .main__hosting__inner__cards__logo__lh{
+    margin: 0px auto;
+  }
+  .main__hosting__inner__cards__logo__lk{
+    margin: 0px auto;
+  }
+  .main__hosting__inner__cards__logo__lg{
+    margin: 0px auto;
+  }
+  .main__hosting__inner__box__ima{
+    flex-wrap: wrap;
+  }
+  .main__hosting__inner__box__inner__cards{
+    margin-top: 20px;
+  }
+  .main__hosting__inner__cards__title h3{
+    font-size: 28px;
+  }
+  .main__inner__cards__img img{
+    width: 330px;
+    height: 290px;
+  }
+  .main__real__inner__cards__inner h2{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+  }
+  .mein__here__center h2{
+    font-size: 25px!important;
+    line-height: normal;
+  }
+  .main__over__card h1{
+    font-size: 22px!important;
+    line-height: normal!important;
+    text-align: center!important;
+  }
+  .main__hosting__inner__cards__title h3{
+    font-size: 22px;
+  }
+  .main__inner__cards__title h6{
+    font-size: 24px;
+    line-height: normal;
+  }
+  .main__hosting__inner__cards__logo__lg{
+    flex-wrap: wrap;
+  }
+  .main__hosting__inner__cards__logo__lk{
+    flex-wrap: wrap;
+  }
+  .main__hosting__inner__cards__logo__lh{
+    flex-wrap: wrap;
+  }
+  .main__hosting__inner__cards__logo__lg h6{
+    width: 100%;
+    text-align: center;
+  }
+  .main__hosting__inner__cards__logo__lk h6{
+    width: 100%;
+    text-align: center;
+  }
+  .main__hosting__inner__cards__logo__lh h6{
+    width: 100%;
+    text-align: center;
+  }
+
+  .main__hosting__inner__cards__logo__lg h6 img{
+    padding: 10px 0px;
+  }
+  .main__hosting__inner__cards__logo__lk h6 img{
+    padding: 10px 0px;
+  }
+  .main__hosting__inner__cards__title p{
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+  .main__hosting__inner__cards__title h3{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .header__inner{
+    margin-top: 20px;
+  }
+}

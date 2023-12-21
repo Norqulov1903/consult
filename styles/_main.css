@@ -1,0 +1,209 @@
+main{
+  width: 100%;
+height: auto;
+  margin: auto;
+}
+.main__inner{
+  max-width: 1268px;
+  width: 100%;
+  height: auto;
+
+
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__inner__cards{
+  max-width: 1268px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__inner__cards__title{
+  max-width: 608px;
+  width: 100%;
+
+  height: auto;
+}
+.main__inner__cards__title nav{
+  max-width: 242px;
+  width: 100%;
+ 
+
+}
+.main__inner__cards__title nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+
+}
+.main__inner__cards__title nav ul li{
+  color: rgba(214, 212, 212, 0.88);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+transition: all 0.3s;
+cursor: pointer;
+line-height: normal;
+}
+.main__inner__cards__title nav ul li:hover{
+  color: #B00000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.main__inner__cards__title h6{
+  color: var(--Text-Title, #2E2E2E);
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  margin-top: 26px;
+  font-weight: 700;
+  line-height: 77.5px; 
+}
+.main__inner__cards__title p{
+  color: var(--Text-Body, #808080);
+  font-family: Inter;
+  font-size: 16px;
+
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.8px;
+}
+.main__inner__cards__title__button{
+  max-width: 344px;
+  width: 100%;
+  margin-bottom: 40px;
+  height: 48px;
+margin-top: 60px;
+}
+.main__inner__cards__title__button button{
+  border-radius: 8px;
+  border: 1px solid var(--Base-Black, #000);
+  height: 43px;
+  color: var(--Base-Black, #000);
+  font-family: Poppins;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 14px;
+  font-style: normal;
+ 
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  width: 160px;
+}
+.main__inner__cards__title__button .active{
+  border-radius: 8px;
+background: #B00000;
+border: none;
+color: white;
+box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30);
+}
+.main__inner__cards__title__button button:hover{
+  border-radius: 8px;
+background: #B00000;
+color: white;
+box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30);
+}
+
+
+
+@media screen and (max-width:1220px) {
+  
+}
+@media screen and (max-width:1024px) {
+  .main__inner__cards__title h1{
+    font-size: 52px;
+  }
+}
+@media screen and (max-width:998px) {
+  .main__inner__cards{
+    flex-wrap: wrap;
+  }
+  .main__inner__cards__title{
+    margin: auto;
+  }
+  .main__inner__cards__img{
+    margin: auto;
+  }
+  .main__inner__cards__title__button{
+    margin: 40px auto;
+  }
+  .main__inner__cards__title p{
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width:786px) {
+ 
+}
+@media screen and (max-width:625px) {
+  .main__inner{
+    margin: 30px auto;
+   }
+   .main__inner__cards__title h6{
+    font-size: 44px;
+    line-height: normal;
+   }
+   .main__inner__cards__img img{
+    width: 400px;
+    height: 350px;
+   }
+  
+
+}
+@media screen and (max-width:475px) {
+  .main__inner__cards__img img{
+    width: 330px;
+    height: 260px;
+   }
+   .main__inner__cards__title h6{
+    font-size: 33px;
+    line-height: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+   .main__inner__cards__title nav ul{
+    padding-left: 10px;
+   }
+   .main__inner__cards__title p{
+    font-size: 12px;
+    line-height: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+   .main__inner__cards__title__button{
+    margin: 20px auto;
+   }
+   .main__inner__cards__title h6{
+    margin-top: 15px;
+   }
+
+}
+@media screen and (max-width:375px){
+  .main__inner__cards__title__button{
+    flex-wrap: wrap;
+    text-align: center;
+    height: auto;
+  }
+  .main__inner__cards__title nav ul{
+    padding-left: 10px;
+   }
+  .main__inner__cards__title__button button:nth-child(2){
+    margin-top: 20px;
+  }
+  .main__inner__cards__img img{
+    width: 290px;
+    height: 220px;
+   }
+}

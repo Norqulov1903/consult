@@ -1,0 +1,137 @@
+.main__over{
+  max-width: 1194px;
+  width: 100%;
+  margin-top:105px ;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__over__card{
+  width: 445px;
+  height: auto;
+  
+}
+
+.main__over__card h1{
+  color: var(--Text-Gray-900, #18191F);
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Heading / H2 */
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 64px; /* 133.333% */
+}
+.main__over__card p{
+  color: var(--Text-Gray-900, #18191F);
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Lead / Lead 1 */
+font-family: Inter;
+margin-top: 3px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
+.main__over__box{
+  width: 490px;
+  height: auto;
+ 
+}
+.main__over__box__as{
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__over__box__bs{
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carfs{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main__over__box__ds{
+  width: 100%;
+  display: none;
+  height: auto;
+
+ 
+}
+.main__over__box__as img{
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.main__over__box__as img:hover{
+  transform: scale(1.2);
+}
+.main__over__box__bs img{
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.main__over__box__bs img:hover{
+  transform: scale(1.2);
+}
+.main__over__box__ds img{
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.main__over__box__ds img:hover{
+  transform: scale(1.2);
+}
+
+
+@media screen and (max-width:1220px) {
+
+}
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:998px) {
+  .main__over__card h1{
+    font-size: 38px;
+  }
+}
+@media screen and (max-width:786px) {
+  .main__real__inner{
+    flex-wrap: wrap;
+  }
+  .main__real__inner__cards__inner__box{
+margin-left: 35px;
+    float: none;
+    margin-top: 20px;
+  }
+  .main__real__inner__titles{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .main__over{
+    flex-wrap: wrap;
+  }
+  .main__over__card{
+    margin: auto;
+  }
+  .main__over__box{
+    margin: auto;
+  }
+}
+@media screen and (max-width:625px) {
+ 
+}
+@media screen and (max-width:475px) {
+
+}
